@@ -1,0 +1,19 @@
+:root{
+  --text-2xs:.75rem;--text-xs:.8125rem;--text-sm:.875rem;--text-base:1rem;--text-lg:1.125rem;
+  --text-xl:1.25rem;--text-2xl:1.5rem;--text-3xl:1.875rem;--text-4xl:2.375rem;--text-5xl:3rem;
+  --text-6xl:3.75rem;--text-7xl:4.75rem;
+
+  --weight-regular:400;--weight-medium:500;--weight-semibold:600;--weight-bold:700;--weight-extrabold:800;
+
+  --leading-flat:1;--leading-tight:1.1;--leading-snug:1.25;--leading-normal:1.5;--leading-relaxed:1.65;
+
+  --tracking-tight:-.02em;--tracking-normal:0;--tracking-wide:.04em;--tracking-wider:.09em;--tracking-widest:.18em;
+
+  /* role aliases */
+  --type-hero-family:var(--font-display);--type-hero-size:var(--text-6xl);--type-hero-leading:var(--leading-tight);--type-hero-tracking:var(--tracking-tight);
+  --type-heading-family:var(--font-display);--type-heading-size:var(--text-3xl);
+  --type-eyebrow-family:var(--font-core);--type-eyebrow-size:var(--text-xs);--type-eyebrow-tracking:var(--tracking-widest);--type-eyebrow-weight:var(--weight-bold);
+  --type-body-family:var(--font-core);--type-body-size:var(--text-base);--type-body-leading:var(--leading-relaxed);
+  --type-label-family:var(--font-core);--type-label-size:var(--text-sm);--type-label-weight:var(--weight-semibold);
+  --type-varsity-family:var(--font-varsity);--type-varsity-tracking:var(--tracking-wide);
+}
