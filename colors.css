@@ -1,0 +1,62 @@
+:root{
+  /* --- Brand base: navy ramp (700 is the brand navy #02084B) --- */
+  --navy-900:#01031c;--navy-800:#010536;--navy-700:#02084b;--navy-600:#0b1470;--navy-500:#1b2795;
+  --navy-400:#4e58b0;--navy-300:#8c93cc;--navy-200:#c2c6e4;--navy-100:#e7e9f4;--navy-50:#f3f4fa;
+
+  /* --- Brand base: gold ramp (500 is the brand gold #FFB918) --- */
+  --gold-700:#8a5f00;--gold-600:#c48a00;--gold-500:#ffb918;--gold-400:#ffc94d;
+  --gold-300:#ffdc8a;--gold-200:#ffedc4;--gold-100:#fff8e8;
+
+  /* --- Neutrals (white is the brand off-white #FEFEFE) --- */
+  --white:#fefefe;--neutral-50:#f7f8fa;--neutral-100:#eef0f4;--neutral-200:#dde0e8;--neutral-300:#c2c7d2;
+  --neutral-400:#9aa0b0;--neutral-500:#6e7484;--neutral-600:#4a4f5d;--neutral-700:#2e323c;--neutral-900:#14161c;
+
+  /* --- Semantic status (deliberately desaturated so gold stays the only bright accent) --- */
+  --success-600:#1b7f5c;--success-100:#e6f4ef;
+  --warning-600:#b4690e;--warning-100:#fdf0da;
+  --danger-600:#b32d22;--danger-100:#fbeae8;
+  --info-600:#1d5fa8;--info-100:#e8f0fa;
+
+  /* --- Brand aliases --- */
+  --brand-primary:var(--navy-700);
+  --brand-accent:var(--gold-500);
+  --brand-paper:var(--white);
+  /* as-drawn logo artwork values (slightly off the brand hexes; keep for asset matching) */
+  --logo-navy:#0e122f;--logo-gold:#fcaf17;
+
+  /* --- Semantic: text --- */
+  --text-strong:var(--navy-700);
+  --text-body:var(--neutral-700);
+  --text-muted:var(--neutral-500);
+  --text-inverse:var(--white);
+  --text-inverse-muted:#b9bdd6;
+  --text-accent:var(--gold-600);
+  --text-link:var(--navy-600);
+  --text-link-hover:var(--navy-500);
+
+  /* --- Semantic: surfaces --- */
+  --surface-page:var(--white);
+  --surface-card:var(--white);
+  --surface-sunken:var(--neutral-50);
+  --surface-tint:var(--navy-50);
+  --surface-navy:var(--navy-700);
+  --surface-navy-deep:var(--navy-800);
+  --surface-gold:var(--gold-500);
+  --surface-gold-soft:var(--gold-100);
+
+  /* --- Semantic: borders --- */
+  --border-subtle:var(--neutral-200);
+  --border-strong:var(--navy-700);
+  --border-inverse:#2b3268;
+  --border-focus:var(--gold-500);
+
+  /* --- Semantic: interaction --- */
+  --action-primary:var(--navy-700);
+  --action-primary-hover:var(--navy-600);
+  --action-primary-active:var(--navy-800);
+  --action-accent:var(--gold-500);
+  --action-accent-hover:var(--gold-400);
+  --action-accent-active:var(--gold-600);
+  --focus-ring:0 0 0 3px rgba(255,185,24,.55);
+  --overlay-scrim:rgba(1,5,54,.62);
+}
